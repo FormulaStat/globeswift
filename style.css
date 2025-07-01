@@ -71,3 +71,43 @@ body, html {
     font-size: 1rem;
   }
 }
+
+/* Header Styles */
+.site-header {
+  background-color: #1e3a8a;
+  padding: 15px 20px;
+  color: white;
+}
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.site-header .logo {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.site-header nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+.site-header nav a:hover {
+  color: #facc15;
+}
+
+/* Mobile Navigation */
+@media (max-width: 600px) {
+  .site-header .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .site-header nav a {
+    display: block;
+    margin: 10px 0 0 0;
+  }
+}
