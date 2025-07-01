@@ -389,3 +389,9 @@ body, html {
   font-size: 1.1rem;
 }
 
+/* Active Nav Link */
+.site-header nav a.active {
+  color: #facc15;
+  font-weight: 600;
+}
+
