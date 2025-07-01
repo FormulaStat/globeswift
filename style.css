@@ -359,13 +359,33 @@ body, html {
   color: #facc15;
 }
 
-/* Logo Styles */
+/* Navbar Logo */
+.site-header .logo {
+  display: flex;
+  align-items: center;
+}
 .site-header .logo img {
   height: 40px;
+  margin-right: 8px;
+}
+.site-header .logo span {
+  font-weight: bold;
+  font-size: 1.3rem;
 }
 
 /* Footer Logo */
-.site-footer .footer-logo img {
-  height: 50px;
+.site-footer .footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 10px;
 }
+.site-footer .footer-logo img {
+  height: 40px;
+  margin-right: 8px;
+}
+.site-footer .footer-logo span {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
