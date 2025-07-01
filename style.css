@@ -419,3 +419,15 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Mobile Navigation */
+@media (max-width: 768px) {
+  .site-header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .site-header nav a {
+    margin: 8px 0;
+  }
+}
+
