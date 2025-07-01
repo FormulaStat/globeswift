@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book a Delivery - GlobeSwift Logistics</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="logo">GlobeSwift Logistics</div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="booking.html">Book Delivery</a>
+        <a href="track.html">Track</a>
+        <a href="contact.html">Contact</a>
+        <a href="faqs.html">FAQs</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="booking-form">
+    <h1>Book a Delivery</h1>
+    <form>
+      <label>Full Name</label>
+      <input type="text" required>
+
+      <label>Email Address</label>
+      <input type="email" required>
+
+      <label>Phone Number</label>
+      <input type="tel" required>
+
+      <label>Pickup Address</label>
+      <input type="text" required>
+
+      <label>Delivery Address</label>
+      <input type="text" required>
+
+      <label>Package Weight (kg)</label>
+      <input type="number" min="0.1" step="0.1" required>
+
+      <label>Delivery Speed</label>
+      <select required>
+        <option value="">-- Select --</option>
+        <option value="standard">Standard (3–5 Days)</option>
+        <option value="express">Express (1–2 Days)</option>
+        <option value="same-day">Same-Day (Local Only)</option>
+      </select>
+
+      <label>Special Instructions (optional)</label>
+      <textarea rows="4"></textarea>
+
+      <button type="submit">Submit Booking</button>
+    </form>
+  </main>
+</body>
+</html>
