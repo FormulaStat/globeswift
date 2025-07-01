@@ -8,7 +8,7 @@ body, html {
 }
 
 .hero {
-  background: url('https://images.unsplash.com/photo-1592492150020-813d8c1212a0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+  background: url('images/hero-bg.jpg') center/cover no-repeat;
   height: 100vh;
   color: white;
   display: flex;
