@@ -395,3 +395,22 @@ body, html {
   font-weight: 600;
 }
 
+/* Smooth Transition for Links */
+.site-header nav a,
+.site-footer nav a {
+  transition: color 0.3s ease;
+}
+
+/* Smooth Transition for Buttons */
+button,
+.cta-button {
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Hover Effect for Buttons */
+button:hover,
+.cta-button:hover {
+  background: #fbbf24;
+  color: #1e3a8a;
+}
+
