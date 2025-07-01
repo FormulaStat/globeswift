@@ -414,3 +414,8 @@ button:hover,
   color: #1e3a8a;
 }
 
+/* Smooth Scroll Behavior */
+html {
+  scroll-behavior: smooth;
+}
+
