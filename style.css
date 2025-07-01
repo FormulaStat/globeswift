@@ -160,3 +160,44 @@ body, html {
 .cta-button:hover {
   background: #fbbf24;
 }
+
+/* Booking Form Styles */
+.booking-form {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+.booking-form h1 {
+  text-align: center;
+  color: #1e3a8a;
+  margin-bottom: 30px;
+}
+.booking-form form {
+  display: flex;
+  flex-direction: column;
+}
+.booking-form label {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.booking-form button {
+  background: #facc15;
+  color: #1e3a8a;
+  font-weight: 600;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.booking-form button:hover {
+  background: #fbbf24;
+}
