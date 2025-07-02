@@ -1,3 +1,54 @@
+/* Tracking Section */
+.tracking {
+  background: var(--background-light);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.tracking-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.tracking h2 {
+  color: var(--primary-color);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.tracking p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.tracking-form {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tracking-form input {
+  flex: 1 1 250px;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.tracking-form button {
+  padding: 0.75rem 1.5rem;
+  background: var(--accent-color);
+  color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tracking-form button:hover {
+  background: #fbbf24;
+}
+
 /* Booking Section */
 .booking {
   padding: 60px 20px;
