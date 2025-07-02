@@ -26,7 +26,7 @@
 .testimonial-track {
   display: flex;
   gap: 2rem;
-  animation: scrollTestimonials 30s linear infinite;
+  animation: scrollTestimonials 20s linear infinite;
 }
 
 .testimonial {
