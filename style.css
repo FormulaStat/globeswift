@@ -471,3 +471,19 @@ html {
   }
 }
 
+/* Footer Social Icons */
+.site-footer .social-icons {
+  margin-top: 15px;
+}
+
+.site-footer .social-icons a {
+  color: white;
+  margin: 0 8px;
+  font-size: 1.2rem;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.site-footer .social-icons a:hover {
+  color: var(--accent-color);
+}
