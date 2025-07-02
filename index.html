@@ -130,6 +130,41 @@
   </div>
   </section>
 
+  <!--- Booking Form Section --->
+  <section class="booking">
+  <div class="booking-content">
+    <h2>Book Your Delivery</h2>
+    <p>Fill out the form below to schedule a delivery. Our team will handle the rest!</p>
+    <form action="submit_booking.html" method="post" class="booking-form">
+      <div class="form-group">
+        <label for="sender-name">Sender's Name</label>
+        <input type="text" id="sender-name" name="sender-name" required>
+      </div>
+      <div class="form-group">
+        <label for="receiver-name">Receiver's Name</label>
+        <input type="text" id="receiver-name" name="receiver-name" required>
+      </div>
+      <div class="form-group">
+        <label for="package-weight">Package Weight (kg)</label>
+        <input type="number" id="package-weight" name="package-weight" required>
+      </div>
+      <div class="form-group">
+        <label for="delivery-type">Delivery Type</label>
+        <select id="delivery-type" name="delivery-type" required>
+          <option value="standard">Standard (3-5 days)</option>
+          <option value="express">Express (Next-day)</option>
+          <option value="international">International (5-10 days)</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="address">Delivery Address</label>
+        <textarea id="address" name="address" required></textarea>
+      </div>
+      <button type="submit" class="cta-button">Submit Booking</button>
+    </form>
+  </div>
+  </section>
+
   <footer class="site-footer fade-in">
   <div class="container">
     <div class="footer-logo">
